@@ -17,8 +17,7 @@ var positions = prediction.Simulate(transform.forward *_speed, _projectile.mass,
 - direction - Direction the object will be thrown
 - mass - mass of thrown object
 - simulationTime - maximum time ahead to simulate
-- offsetPosition - Detachment of positions, if necessary - 
-  Pass a Vector.Zero if you want the exact simulation
+- startPosition - Start position of the object
 - deltaTime
 
 ## Limintation
